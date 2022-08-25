@@ -13,8 +13,8 @@ const Video = () => {
         <h1>Meditation Classes</h1>
 <p> Journey within to find inner peace and purpose</p>
         <div>
-          <Link to="/training" className="btn">
-            Classes
+          <Link to="/pricing" className="btn">
+            See Packages
           </Link>
           <Link to="/contact" className="btn btn-light">
             Contact Us 
