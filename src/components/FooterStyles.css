@@ -61,8 +61,18 @@
     .right .social {
         margin: auto;
     }
+.footer h4 {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
 
-
+.footer p {
+    font-size: 0.8rem;
+    padding: 1rem 0;
+}
+.footer-container{
+    text-align:center;
+}
 
 }
 

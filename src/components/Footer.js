@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
         <div className="left">
-          <div className="location ">
+          {/* <div className="location ">
             <FaSearchLocation
               size={20}
               style={{ color: "#ffffff", marginRight: "2rem" }}
@@ -23,7 +23,7 @@ const Footer = () => {
               <p>500 React Ave</p>
               <h4>Fort Lauderdale, FL</h4>
             </div>
-          </div>
+          </div> */}
           <div className="phone">
             <h4>
               <FaPhone

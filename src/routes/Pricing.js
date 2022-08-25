@@ -10,7 +10,7 @@ const Pricing = () => {
       <Navbar />
       <HeroImage
         heading="PRICING"
-        text="Choose a plan from the options below:"
+        text="Choose a monthly plan from the options below:"
       />
       <PricingCards />
       <Footer />

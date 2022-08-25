@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 .header {
     position: fixed;
     width: 100%;
@@ -64,7 +64,10 @@
         font-size: 2rem;
     }
 }
+.logo{
+font-family: 'Kaushan Script', cursive;
 
+}
 
 
 

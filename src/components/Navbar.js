@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="header">
       <Link to="/">
-        <h1>Mugs</h1>
+        <h1 className='logo'>ZenCorp</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link to="/pricing">Pricing</Link>
         </li>
         <li>
-          <Link to="/training">Training</Link>
+          <Link to="/program">Our Program</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
