@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     padding: 6rem 0;
-    background: rgba(0,0,0,.8);
+    background: rgba(6, 0, 22,.5);
 }
 
 .footer-container {
@@ -55,11 +55,15 @@
 @media screen and (max-width:640px) {
     .footer-container {
         grid-template-columns: 1fr;
+       
     }
 
     .right .social {
         margin: auto;
     }
+
+
+
 }
 
 

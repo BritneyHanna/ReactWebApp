@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
         <div className="left">
-          <div className="location">
+          <div className="location ">
             <FaSearchLocation
               size={20}
               style={{ color: "#ffffff", marginRight: "2rem" }}
@@ -43,7 +43,7 @@ const Footer = () => {
             </h4>
           </div>
         </div>
-        <div className="right">
+        <div className="right ">
           <h4>About Us</h4>
           <p>
             We've been apart of the South Florida community for 25 years and our
@@ -51,21 +51,41 @@ const Footer = () => {
             state necessary for success and happiness.
           </p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#ffffff", marginRight: "1rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "#ffffff", marginRight: "1rem" }}
-            />
-          
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+            >
+              <FaFacebook
+                size={30}
+                style={{ color: "#ffffff", marginRight: "1rem" }}
+              />
+            </a>
+
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Twitter"
+            >
+              <FaTwitter
+                size={30}
+                style={{ color: "#ffffff", marginRight: "1rem" }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Linkedin"
+            >
               <FaLinkedin
                 size={30}
                 style={{ color: "#ffffff", marginRight: "1rem" }}
-                      />
-                        {/* <a  target="_blank" rel="noreferrer" href="https://www.linkedin.com/"></a> */}
-           
+              />
+            </a>
+            {/* <a  target="_blank" rel="noreferrer" href="https://www.linkedin.com/"></a> */}
           </div>
         </div>
       </div>
