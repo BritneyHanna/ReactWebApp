@@ -10,14 +10,16 @@ const Video = () => {
         <source src={yogaVideo} type="video/mp4" />
       </video>
       <div className="content">
-        <h1>Meditation Classes</h1>
-<p> Journey within to find inner peace and purpose</p>
+        <div className="hero-banner-wrapper">
+          <h1>Meditation Classes</h1>
+          <p> Journey within to find inner peace and purpose</p>
+        </div>
         <div>
           <Link to="/pricing" className="btn">
             See Packages
           </Link>
           <Link to="/contact" className="btn btn-light">
-            Contact Us 
+            Contact Us
           </Link>
         </div>
       </div>
